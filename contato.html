@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rihanna - Página Inicial</title>
+</head>
+<body>
+    <header>
+        <h1>Rihanna</h1>
+       <h2>Informações</h2>
+       <nav>
+        <ul>
+            <li><a href="#Loja">Loja</a></li>
+            <li><a href="#biografia">Biografia</a></li>
+            <li><a href="#Discografia">Discografia</a></li>
+            <li><a href="#Galeria">Galeria</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </ul>
+       </nav>
+       <section id="contato">
+        <h2>Contato</h2>
+        <h3>Formulário para contato</h3>
+        <h4>Informações Pessoais:</h4>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone"><br><br>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade"><br><br>
+
+            <label for="aniversario">Data de Aniversário:</label>
+            <input type="date" id="aniversario" name="aniversario"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+            <label for="genero_musical">Gênero Musical:</label>
+            <select id="genero_musical" name="genero_musical">
+                <option value="rock">Rock</option>
+                <option value="pop">Pop</option>
+                <option value="jazz">Jazz</option>
+                <option value="hiphop">Hip Hop</option>
+                <option value="eletronica">Eletrônica</option>
+            </select><br><br>
+
+            <label for="instrumentos">Instrumentos Musicais:</label><br>
+            <input type="checkbox" id="violao" name="instrumentos" value="violao">
+            <label for="violao">Violão</label><br>
+            <input type="checkbox" id="guitarra" name="instrumentos" value="guitarra">
+            <label for="guitarra">Guitarra</label><br>
+            <input type="checkbox" id="bateria" name="instrumentos" value="bateria">
+            <label for="bateria">Bateria</label><br>
+            <input type="checkbox" id="baixo" name="instrumentos" value="baixo">
+            <label for="baixo">Baixo</label><br>
+            <input type="checkbox" id="teclado" name="instrumentos" value="teclado">
+            <label for="teclado">Teclado</label><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Biografia</legend>
+            <label for="biografia">Escreva sua biografia:</label><br>
+            <textarea id="biografia" name="biografia" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Foto</legend>
+            
+            <br>
+            <input type="file" id="foto" name="foto"><br><br>
+            <br>
+        </fieldset>
+<br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
